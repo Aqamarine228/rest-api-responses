@@ -1,7 +1,7 @@
-#Rest Api Responses for laravel
+# Rest Api Responses for laravel
 
-##Installation
+## Installation
 `composer require alfa-dev-team/rest-api-responses`
 
-##Usage
+## Usage
 Add trait `ApiResponses` to your controller.
