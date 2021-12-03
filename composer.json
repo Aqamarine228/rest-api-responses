@@ -1,0 +1,19 @@
+{
+    "name": "alfa-dev-team/rest-api-responses",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlfaDevTeam\\RestApiResponses\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gritsay Andriy",
+            "email": "gritsayandriy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.*"
+    }
+}
