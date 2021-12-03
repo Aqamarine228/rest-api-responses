@@ -1,8 +1,8 @@
 <?php
 
-namespace RestApiResponses\Controllers;
+namespace AlfaDevTeam\RestApiResponses\Controllers;
 
-use RestApiResponses\Exceptions\ValidationException;
+use AlfaDevTeam\RestApiResponses\Exceptions\ValidationException;
 use Illuminate\Http\JsonResponse;
 
 trait ApiResponses

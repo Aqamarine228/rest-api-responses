@@ -1,8 +1,8 @@
 <?php
 
-namespace RestApiResponses\Exceptions;
+namespace AlfaDevTeam\RestApiResponses\Exceptions;
 
-use RestApiResponses\Controllers\ApiResponses;
+use AlfaDevTeam\RestApiResponses\Controllers\ApiResponses;
 use Illuminate\Http\JsonResponse;
 
 class ValidationException extends \Exception
