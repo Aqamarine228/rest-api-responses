@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "AlfaDevTeam\\RestApiResponses\\": "src/"
+            "AlfaDevTeam\\RestApiResponses\\": "src/",
+            "AlfaDevTeam\\RestApiResponses\\Tests": "tests/"
         }
     },
     "authors": [
