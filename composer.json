@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "AlfaDevTeam\\RestApiResponses\\": "src/",
-            "AlfaDevTeam\\RestApiResponses\\Tests": "tests/"
+            "AlfaDevTeam\\RestApiResponses\\Tests\\": "tests/"
         }
     },
     "authors": [
