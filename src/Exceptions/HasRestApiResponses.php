@@ -9,7 +9,7 @@ use Illuminate\Validation\ValidationException;
 trait HasRestApiResponses
 {
     use ApiResponses;
-    
+
     protected function invalidJson($request, ValidationException $exception)
     {
         return $this->respondError([
