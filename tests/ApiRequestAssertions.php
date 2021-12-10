@@ -38,34 +38,6 @@ trait ApiRequestAssertions
             ->assertStatus(JsonResponse::HTTP_UNPROCESSABLE_ENTITY);
     }
 
-
-    protected function postAuthorizationJson($url, array $params = [])
-    {
-        return $this->requestAuthorizationJson($url, 'postJson', $params);
-    }
-
-    protected function getAuthorizationJson($url): TestResponse
-    {
-        return $this->requestAuthorizationJson($url, 'getJson');
-    }
-
-    protected function deleteAuthorizationJson($url)
-    {
-        return $this->requestAuthorizationJson($url, 'deleteJson');
-    }
-
-    /**
-     * @param string $url
-     * @param string $method
-     * @param array $params
-     * @return mixed
-     */
-    protected function requestAuthorizationJson(string $url, string $method, array $params = [])
-    {
-        return $this->withHeaders(['Authorization' => 'Bearer ' . $this->plainTextSanctumToken])
-            ->requestJson($url, $method, $params);
-    }
-
     protected function postRequestJson($url, array $params = [])
     {
         return $this->requestJson($url, 'postJson', $params);
