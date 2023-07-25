@@ -1,8 +1,8 @@
 <?php
 
-namespace AlfaDevTeam\RestApiResponses\Exceptions;
+namespace Aqamarine\RestApiResponses\Exceptions;
 
-use AlfaDevTeam\RestApiResponses\Controllers\ApiResponses;
+use Aqamarine\RestApiResponses\Controllers\ApiResponses;
 
 class ApiUnexpectedException extends \Exception
 {
