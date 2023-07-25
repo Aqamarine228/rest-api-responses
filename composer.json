@@ -1,17 +1,17 @@
 {
-    "name": "alfa-dev-team/rest-api-responses",
+    "name": "aqamarine/rest-api-responses",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "AlfaDevTeam\\RestApiResponses\\": "src/",
-            "AlfaDevTeam\\RestApiResponses\\Tests\\": "tests/"
+            "Aqamarine\\RestApiResponses\\": "src/",
+            "Aqamarine\\RestApiResponses\\Tests\\": "tests/"
         }
     },
     "authors": [
         {
-            "name": "Gritsay Andriy",
-            "email": "gritsayandriy@gmail.com"
+            "name": "Sergey Kokoulin",
+            "email": "mrfurgjk@gmail.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AlfaDevTeam\\RestApiResponses\\Providers\\ServiceProvider"
+                "Aqamarine\\RestApiResponses\\Providers\\ServiceProvider"
             ]
         }
     }
